@@ -78,7 +78,8 @@ const InnovationCards = () => {
               className="object-contain"
             />
           </div>
-        </div> <span>Concrete Protection</span>
+        </div> 
+{/*         <span>Concrete Protection</span> */}
       </div>
     </section>
   );
