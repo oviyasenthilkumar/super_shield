@@ -19,22 +19,23 @@ import ThreeTechnologies from "../../components/ThreeTechnologies";
 export default function Home() {
   return (
     <>
-      <Header/>
-      <HeroSection/>
-      <StatsSection/>
-      <InnovationIntro/>
+      <Header />
+      <HeroSection />
+      <StatsSection />
+      <InnovationIntro />
       {/* <LogoCarousel/> */}
-      <LogoGrid/>
-      <AdaptiveTechnology/>
-      <ThreeTechnologies/>
-      <DryboxSystem/>
-      <ShieldSection/>
-      <InnovationCards/>
-      <FeaturedVideos/>
-      <ProductLines/>
-      <ProjectsSection/>
-      <ExploreSection/>
-      <Footer/>
+      <LogoGrid />
+      <AdaptiveTechnology />
+      <ThreeTechnologies />
+
+      <ShieldSection />
+      <DryboxSystem />
+      <InnovationCards />
+      <FeaturedVideos />
+      <ProductLines />
+      <ProjectsSection />
+      <ExploreSection />
+      <Footer />
     </>
   );
 }

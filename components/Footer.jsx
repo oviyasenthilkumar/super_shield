@@ -81,7 +81,7 @@ export default function Footer() {
           <h4 className="font-bold poppins">Get in touch</h4>
           <Link
             href="/contact"
-            className="inline-block bg-white text-black font-medium px-4 py-2 hover:bg-gray-100 transition open-sans"
+            className="inline-block bg-white text-black font-medium px-4 py-2 hover:bg-gray-100 hover:text-[#c50022] transition open-sans"
           >
             Contact us →
           </Link>

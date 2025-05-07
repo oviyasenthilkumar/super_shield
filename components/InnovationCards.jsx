@@ -134,7 +134,7 @@ const InnovationCards = () => {
           {/* Text + Button + Right Image */}
           <div className="flex flex-col  items-start w-full px-5 text-left">
             <h2 className="text-2xl md:text-4xl font-semibold text-black leading-tight text-left poppins">
-              RESOURCES
+              Resources
             </h2>
             <p className="text-black mb-6 mt-6 text-base  text-justify open-sans font-normal">
               Access a comprehensive collection of technical documents,

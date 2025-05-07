@@ -11,11 +11,11 @@ const StatsSection = () => {
 
   return (
     <section className="py-10 px-4 bg-white">
-      <div className="max-w-8xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {stats.map((stat, index) => (
           <div
             key={index}
-            className={`p-8 text-center border border-gray-200 ${
+            className={`p-8 text-center  ${
               index % 2 === 0 ? "bg-[#ededed]" : "bg-[#f7f7f7]"
             }`}
           >

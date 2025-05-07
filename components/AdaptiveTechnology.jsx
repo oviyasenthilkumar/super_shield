@@ -234,7 +234,7 @@ const AdaptiveTechnology = () => {
 
   return (
     <section className="w-full min-h-screen">
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-full min-h-screen">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-full min-h-screen ">
         {/* Left Column */}
         <div className="bg-[#F4F4F4] flex items-start">
           <div className="p-6 sm:p-10 md:p-14 space-y-6 max-w-3xl mx-auto">

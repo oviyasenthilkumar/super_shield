@@ -147,7 +147,7 @@ const ProjectsSection = () => {
           {projects.map((project, idx) => (
             <div
               key={idx}
-              className={` overflow-hidden  bg-white transition border  flex flex-col
+              className={` overflow-hidden  bg-white transition shadow-sm  flex flex-col
                 ${project.tall ? "lg:row-span-2" : ""}
                 ${project.wide ? "lg:col-span-2" : ""}
                 md:h-auto

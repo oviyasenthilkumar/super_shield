@@ -57,8 +57,8 @@ export default function LogoGrid() {
           <span className="text-[#B41424]">Certifications</span>
         </h2>
       </div>
-      <div className="max-w-7xl mx-auto border border-gray-200 p-6">
-        <div className="flex flex-col md:flex-row justify-around items-center gap-5 md:gap-0">
+      <div className="max-w-7xl mx-auto p-6">
+        <div className="flex flex-col md:flex-row justify-around items-center gap-5 md:gap-0 ">
           {/* Left side logos */}
           <div className="flex flex-wrap justify-between md:justify-around items-center gap-3 w-full md:w-1/2">
             <img
@@ -80,7 +80,7 @@ export default function LogoGrid() {
           </div>
 
           {/* Vertical divider (hidden on mobile) */}
-          <div className="hidden md:block w-px h-16 bg-gray-300 mx-6"></div>
+          <div className="hidden md:block w-px h-16 bg-black mx-6"></div>
 
           {/* Right side logos */}
           <div className="flex flex-wrap justify-between md:justify-around items-center gap-3 w-full md:w-1/2">
