@@ -56,7 +56,7 @@ export default function ShieldSection() {
             />
           </div>
         </div>
-        <div className="flex flex-wrap gap-4 pb-10 items-center justify-around">
+        <div className="flex flex-wrap gap-4 pb-10 pt-3 items-center justify-around">
           <span className="text-xs font-semibold font-poppins uppercase">
             Our Mission In
             <br /> Alignment With
