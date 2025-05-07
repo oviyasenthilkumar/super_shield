@@ -153,8 +153,8 @@ const InnovationCards = () => {
             <Image
               src="/books.png" // Replace with your right catalogue spread
               alt="Catalogue Spread"
-              width={300}
-              height={300}
+              width={400}
+              height={400}
               className="object-contain"
             />
           </div>
