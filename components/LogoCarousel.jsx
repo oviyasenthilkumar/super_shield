@@ -53,7 +53,7 @@ export default function LogoGrid() {
     <div className="w-full py-8 px-4 bg-white">
       <div className="text-center mb-8">
         <h2 className="text-2xl md:text-5xl font-semibold poppins text-black">
-          Collaborations and <br />
+          Collaborations and <br/>
           <span className="text-[#B41424]">Certifications</span>
         </h2>
       </div>

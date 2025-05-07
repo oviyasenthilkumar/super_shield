@@ -52,7 +52,7 @@ const ThreeTechnologies = () => {
             To Make Concrete Last a Lifetime.
           </p>
         </div>
-        <div className="mt-8 lg:mt-0 lg:max-w-xl text-base text-black font-normal text-left open-sans">
+        <div className="mt-8 lg:mt-0 lg:max-w-xl text-base text-black font-normal text-justify open-sans">
           Supershield is the global innovator behind the patented SHIELD
           Crystalline Technologies – the most advanced self-healing concrete
           solution engineered for real-world resilience. Our technologies go
@@ -67,7 +67,7 @@ const ThreeTechnologies = () => {
         {technologyData.map((tech) => (
           <div
             key={tech.id}
-            className="bg-white shadow-lg rounded-lg flex flex-col overflow-hidden"
+            className="bg-white shadow-lg flex flex-col overflow-hidden"
           >
             {/* Image + Top Title */}
             <div className="relative">
@@ -76,20 +76,20 @@ const ThreeTechnologies = () => {
                 alt={tech.title}
                 width={600}
                 height={400}
-                className="w-full object-cover rounded-t-lg"
+                className="w-full object-cover "
               />
             </div>
 
             <div className="px-6 py-6 flex flex-col flex-grow">
-              <h2 className="text-lg font-semibold text-gray-800 mb-3 poppins">
+              <h2 className="text-lg font-semibold text-gray-800 mb-3 poppins text-justify">
                 {tech.titleTop}
               </h2>
 
-              <h3 className="text-[#b51724] font-bold text-lg mb-4 poppins">
+              <h3 className="text-[#b51724] font-bold text-lg mb-4 poppins text-justify">
                 {tech.title}
               </h3>
 
-              <p className="text-gray-700 text-sm leading-relaxed flex-grow open-sans font-normal">
+              <p className="text-gray-700 text-sm leading-relaxed flex-grow text-justify open-sans font-normal">
                 {tech.description}
               </p>
 
@@ -97,7 +97,7 @@ const ThreeTechnologies = () => {
                 href={tech.link}
                 className="mt-6 text-[#b51724] text-base font-semibold inline-flex items-center gap-2 hover:underline open-sans"
               >
-                EXPLORE MORE → 
+                EXPLORE MORE →
               </Link>
             </div>
           </div>

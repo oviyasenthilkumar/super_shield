@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const DryboxSystem = () => {
   return (
-    <section className="w-full min-h-screen">
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-full min-h-screen">
+    <section className="w-full ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-full ">
         {/* Left Column */}
         <div className="bg-[#F4F4F4] flex items-center">
-          <div className="w-full max-w-3xl px-6 sm:px-10 md:px-14 py-10 mx-auto space-y-6">
+          <div className="w-full max-w-3xl px-6 sm:px-10 md:px-14 py-5 mx-auto space-y-6">
             <div className="flex flex-col items-start justify-center space-y-6">
               <Image
                 src="/Drybox_logo.png"
@@ -18,10 +18,10 @@ const DryboxSystem = () => {
                 className="mb-6 w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px]"
               />
 
-              <p className="text-black text-base md:text-base leading-relaxed text-left open-sans font-normal">
-                Comprehensive solution that combines multiple products to result in
-                the design and construction of long-lasting, durable, and waterproof
-                below–ground concrete structures.
+              <p className="text-black text-base md:text-base leading-relaxed open-sans font-normal text-justify">
+                Comprehensive solution that combines multiple products to result
+                in the design and construction of long-lasting, durable, and
+                waterproof below–ground concrete structures.
               </p>
 
               <Link

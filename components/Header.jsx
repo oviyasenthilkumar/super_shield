@@ -76,7 +76,7 @@ const navItems = [
 ];
 
 export default function Header() {
-  const [activeDropdown, setActiveDropdown] = useState(null);
+  // const [activeDropdown, setActiveDropdown] = useState(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mobileDropdownOpen, setMobileDropdownOpen] = useState(null);
   const [scrolled, setScrolled] = useState(false);
@@ -91,14 +91,14 @@ export default function Header() {
 
   return (
     <header className="bg-[#C50022] text-white sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 py-8 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 py-6 flex items-center justify-between">
         {/* Logo */}
         <Link href="/">
           <Image
             src={scrolled ? "/logo21.png" : "/main-logo.png"}
             alt="Super Shield"
-            width={scrolled ? 100 : 250}
-            height={scrolled ? 100 : 250}
+            width={scrolled ? 100 : 200}
+            height={scrolled ? 100 : 200}
             priority
           />
         </Link>

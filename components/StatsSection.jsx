@@ -15,7 +15,7 @@ const StatsSection = () => {
         {stats.map((stat, index) => (
           <div
             key={index}
-            className={`p-8 text-center border border-gray-200 shadow-sm ${
+            className={`p-8 text-center border border-gray-200 ${
               index % 2 === 0 ? "bg-[#ededed]" : "bg-[#f7f7f7]"
             }`}
           >

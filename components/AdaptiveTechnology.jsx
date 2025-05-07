@@ -236,7 +236,7 @@ const AdaptiveTechnology = () => {
     <section className="w-full min-h-screen">
       <div className="grid grid-cols-1 lg:grid-cols-2 w-full min-h-screen">
         {/* Left Column */}
-        <div className="bg-[#F4F4F4] flex items-center">
+        <div className="bg-[#F4F4F4] flex items-start">
           <div className="p-6 sm:p-10 md:p-14 space-y-6 max-w-3xl mx-auto">
             <h1 className="text-3xl md:text-4xl font-semibold leading-tight text-black poppins">
               Crystalline Waterproofing <br />
@@ -246,27 +246,40 @@ const AdaptiveTechnology = () => {
               Meet SHIELD – World’s Only Adaptive Crystalline Technology
               <sup>®</sup>
             </h3>
-            <p className="text-base font-normal leading-7 text-gray-800 open-sans">
-              Traditional crystalline technologies are designed to waterproof concrete by filling pores and sealing cracks after they occur — a reactive approach that addresses defects and offers only basic durability.
+            <p className="text-justify font-normal leading-7 text-black open-sans">
+              Traditional crystalline technologies are designed to waterproof
+              concrete by filling pores and sealing cracks after they occur — a
+              reactive approach that addresses defects and offers only basic
+              durability.
             </p>
-            <p className="text-base font-normal leading-7 text-gray-800 open-sans">
-              SHIELD Adaptive Crystalline Technologies go far beyond. It begins working from the casting stage, enhancing fresh concrete properties, supporting optimal hydration, and delivering superior performance even in extreme climates.
+            <p className="text-justify font-normal leading-7 text-black open-sans">
+              SHIELD Adaptive Crystalline Technologies go far beyond, it begins
+              working from the casting stage, enhancing fresh concrete
+              properties, supporting optimal hydration, and delivering superior
+              performance even in extreme climates. It actively manages thermal,
+              moisture, water, and vapor movement—adapting to phase changes
+              throughout the concrete’s lifecycle. Designed for both intense
+              heat and freezing temperatures, it reduces thermal stress and
+              shrinkage cracks, ensuring long-term resilience, durability, and
+              crack-free performance.
             </p>
-            <p className="text-base font-normal leading-7 text-gray-800 open-sans">
-              With SHIELD Adaptive Crystalline, concrete isn’t just protected — it’s climate-change ready and durable by design, not by repair.
+            <p className="text-justify font-normal leading-7 text-black open-sans">
+              With SHIELD Adaptive Crystalline, concrete isn’t just protected —
+              it’s climate-change ready and durable by design, not by repair.
             </p>
           </div>
         </div>
 
         {/* Right Column */}
-        <div className="bg-[#F7F7F7] flex items-center">
+        <div className="bg-[#F7F7F7] flex items-start">
           <div className="p-6 sm:p-10 md:p-14 max-w-3xl mx-auto">
             <h3 className="text-3xl md:text-4xl font-semibold mb-6 text-black poppins">
-              Key Challenges Addressed by SHIELD Adaptive Crystalline Technology<sup>®</sup>
+              Key Challenges Addressed by SHIELD Adaptive Crystalline Technology
+              <sup>®</sup>
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {challenges.map((item, idx) => (
-                <div key={idx} className="flex items-start gap-4 p-4 bg-white shadow-sm">
+                <div key={idx} className="flex items-start gap-4 p-4 bg-white ">
                   <Image
                     src={`/${item.icon}`}
                     alt={`icon-${idx + 1}`}

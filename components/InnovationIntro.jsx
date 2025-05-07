@@ -6,12 +6,13 @@ const InnovationIntro = () => {
     <section className="bg-white px-6 md:px-12 py-16 text-black">
       <div className="max-w-7xl mx-auto text-center md:text-left">
         {/* Heading */}
-        <h2 className="text-3xl md:text-5xl font-bold leading-tight text-left poppins">
-          Leading the Future of <span className="">Concrete Protection</span>
+        <h2 className="text-3xl md:text-5xl  font-bold tracking-wide text-center poppins">
+          Leading the Future of  {" "}
+          <span className="text-[#b41424]">Concrete Protection</span>
         </h2>
 
         {/* Paragraph */}
-        <p className="mt-6 text-base md:text-lg leading-relaxed text-black text-left open-sans">
+        <p className="mt-6 text-justify text-base max-width-5xl md:text-lg leading-relaxed text-black  open-sans">
           Supershield is an innovator and global leader in self-healing concrete
           technologies, offering sustainable, high-performance solutions that
           enhance the durability, longevity, and resilience of concrete. Our{" "}

@@ -18,15 +18,15 @@ const exploreItems = [
 ];
 export default function ExploreSection() {
   return (
-    <div className="py-12 px-4 bg-white md:px-10 lg:px-20">
+    <div className="py-12 px-4 bg-white md:px-10 lg:px-20 ">
       <h2 className="ttext-4xl md:text-5xl text-black  font-bold text-center mb-10 poppins">
         Explore more
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-left ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-left max-w-7xl mx-auto">
         {exploreItems.map((item, index) => (
           <div
             key={index}
-            className="relative group w-full aspect-[4/3] overflow-hidden shadow-lg"
+            className="relative group w-full aspect-[4/3] overflow-hidden shadow-lg "
           >
             <Image
               src={item.image}

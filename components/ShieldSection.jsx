@@ -13,7 +13,7 @@ export default function ShieldSection() {
     Advancing the Future of Self-Healing Concrete
   </h2>
 
-  <p className="mt-6 max-w-3xl text-sm md:text-base leading-7 md:leading-8 text-left font-normal text-[#333] font-open-sans">
+  <p className="mt-6 max-w-3xl text-sm md:text-base leading-7 md:leading-8 text-justify font-normal text-[#333] font-open-sans">
     The <strong>SHIELD Consortium</strong>, a key initiative of Leaselife Holdings through its SHIELD of Concrete Innovation Centre, is committed to pioneering research and development in self-healing, sustainable, and climate-resilient concrete technologies.
     <br />
     At the forefront of innovation, SHIELD of Concrete has developed a suite of advanced SHIELD adaptive crystalline technologies designed to enhance durability, sustainability, and adaptability in extreme environmental conditions. These research-backed solutions not only extend infrastructure lifespan and reduce maintenance needs but also play a vital role in the global shift toward climate-resilient and low-carbon construction.
