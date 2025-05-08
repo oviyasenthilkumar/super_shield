@@ -60,10 +60,10 @@ export default function ShieldSection() {
           <h3 className="text-lg font-semibold font-poppins uppercase">
             Our Mission In Alignment With
           </h3>
-          <div className="flex flex-wrap w-full justify-around pt-5 gap-y-5 md:gap-y-0">
-            <img src="/partner1.png" alt="logo1" className="h-12" />
-            <img src="/partner2.png" alt="logo2" className="h-12" />
-            <img src="/partner3.png" alt="logo3" className="h-12" />
+          <div className="flex flex-wrap w-full justify-center pt-3 gap-y-5 md:gap-y-0">
+            <img src="/partner1.png" alt="logo1" className="h-12 pr-10" />
+            <img src="/partner2.png" alt="logo2" className="h-12 pr-10" />
+            <img src="/partner3.png" alt="logo3" className="h-12 pr-10" />
           </div>
         </div>
       </div>
