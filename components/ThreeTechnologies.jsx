@@ -67,7 +67,7 @@ const ThreeTechnologies = () => {
         {technologyData.map((tech) => (
           <div
             key={tech.id}
-            className="bg-white shadow-lg flex flex-col overflow-hidden"
+            className="bg-white shadow-sm flex flex-col overflow-hidden"
           >
             {/* Image + Top Title */}
             <div className="relative">
@@ -80,16 +80,16 @@ const ThreeTechnologies = () => {
               />
             </div>
 
-            <div className="px-6 py-6 flex flex-col flex-grow">
-              <h2 className="text-lg font-semibold text-gray-800 mb-3 leading-9 poppins text-justify">
+            <div className="px-9 py-9 flex flex-col flex-grow">
+              <h2 className="text-lg font-semibold text-gray-800 mb-3 leading-7 poppins text-justify">
                 {tech.titleTop}
               </h2>
 
-              <h3 className="text-[#b51724] font-semibold leading-10 text-lg md:text-xl mb-4 poppins text-justify">
+              <h3 className="text-[#b51724] font-semibold leading-8 text-lg md:text-xl mb-4 poppins text-justify">
                 {tech.title}
               </h3>
 
-              <p className="text-gray-700 text-base leading-8 flex-grow text-justify open-sans font-normal">
+              <p className="text-gray-700 text-base leading-7 flex-grow text-justify open-sans font-normal">
                 {tech.description}
               </p>
 

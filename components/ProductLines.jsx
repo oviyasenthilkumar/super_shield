@@ -243,7 +243,7 @@ const ProductLines = () => {
 
   return (
     <section className="w-full bg-[#f7f7f7] py-12 px-4 md:px-8 lg:px-16 lg:py-16">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto ">
         <h2 className="text-3xl md:text-4xl font-semibold text-black leading-10 tracking-wide text-center mb-8 poppins ">
           Product Lines
         </h2>
@@ -262,11 +262,11 @@ const ProductLines = () => {
                 height={300}
                 className="w-full h-60 sm:h-64 lg:h-72 object-cover"
               />
-              <div className="p-4 flex-grow flex flex-col ">
-                <h4 className="font-semibold leading-9 text-lg md:text-xl text-black mb-1 text-left open-sans ">
+              <div className="px-8 py-8 flex-grow flex flex-col ">
+                <h4 className="font-semibold leading-8 text-lg md:text-xl text-black mb-1 text-left open-sans ">
                   {item.title}
                 </h4>
-                <p className=" text-gray-700 text-base leading-8 text-left open-sans font-normal pt-5">
+                <p className=" text-gray-700 text-base leading-7 text-left open-sans font-normal pt-2">
                   {item.description}
                 </p>
               </div>

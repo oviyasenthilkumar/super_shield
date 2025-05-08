@@ -56,13 +56,15 @@ export default function ShieldSection() {
             />
           </div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 mx-auto gap-4 px-3 py-7 items-center justify-around">
-          <span className="text-xs font-semibold font-poppins uppercase">
+        <div className="flex flex-col mx-auto gap-4 px-3 py-9 items-center justify-around ">
+          <h3 className="text-lg font-semibold font-poppins uppercase">
             Our Mission In Alignment With
-          </span>
-          <img src="/partner1.png" alt="logo1" className="h-10" />
-          <img src="/partner2.png" alt="logo2" className="h-10" />
-          <img src="/partner3.png" alt="logo3" className="h-10" />
+          </h3>
+          <div className="flex flex-wrap w-full justify-around pt-5 gap-y-5 md:gap-y-0">
+            <img src="/partner1.png" alt="logo1" className="h-12" />
+            <img src="/partner2.png" alt="logo2" className="h-12" />
+            <img src="/partner3.png" alt="logo3" className="h-12" />
+          </div>
         </div>
       </div>
     </section>
