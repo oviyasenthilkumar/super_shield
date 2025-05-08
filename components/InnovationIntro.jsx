@@ -6,22 +6,26 @@ const InnovationIntro = () => {
     <section className="bg-white px-6 md:px-12 py-16 text-black">
       <div className="max-w-7xl mx-auto text-center md:text-left">
         {/* Heading */}
-        <h2 className="text-3xl md:text-5xl  font-bold tracking-wide text-center poppins">
-          Leading the Future of  {" "}
-          <span className="text-[#b41424]">Concrete Protection</span>
+        <h2 className="text-3xl md:text-4xl font-semibold leading-10 tracking-wide text-left poppins">
+          Leading the Future of Concrete Protection
         </h2>
 
         {/* Paragraph */}
-        <p className="mt-6 text-justify text-base max-width-5xl md:text-lg leading-relaxed text-black  open-sans">
+        <p className="mt-6 text-justify text-base max-w-6xl md:text-lg font-normal leading-7 text-black tracking-normal open-sans">
           Supershield is an innovator and global leader in self-healing concrete
           technologies, offering sustainable, high-performance solutions that
           enhance the durability, longevity, and resilience of concrete. Our{" "}
           <span className="font-semibold">
-            SHIELD <sup>®</sup>
+            SHIELD<sup>®</sup>
           </span>{" "}
-          ( Self-Healing Innovations for Enhanced Longevity and Durability ){" "}
-          <span className="font-semibold">Crystalline Technologies</span> power
-          a complete range of eco-friendly products—including waterproofing
+          ( <span className="font-bold">S</span>elf-
+          <span className="font-bold">H</span>ealing{" "}
+          <span className="font-bold">I</span>nnovations for{" "}
+          <span className="font-bold">E</span>nhanced{" "}
+          <span className="font-bold">L</span>ongevity and{" "}
+          <span className="font-bold">D</span>urability ){" "}
+          <span className="font-bold">Crystalline Technologies</span> power a
+          complete range of eco-friendly products—including waterproofing
           admixtures, coatings, mortars, repair systems — designed to extend
           concrete lifespan and reduce maintenance. Built for extreme conditions
           and evolving infrastructure needs, Supershield combines innovation
@@ -33,9 +37,9 @@ const InnovationIntro = () => {
         <div className="mt-6 text-left open-sans">
           <a
             href="#"
-            className="text-[#b51724] font-semibold uppercase text-sm inline-flex items-center gap-2 hover:underline"
+            className="text-[#b51724] font-semibold uppercase text-base inline-flex items-center gap-2 hover:underline"
           >
-            Discover Our Innovations <span>↗</span>
+            ➔ Discover Our Innovations
           </a>
         </div>
       </div>

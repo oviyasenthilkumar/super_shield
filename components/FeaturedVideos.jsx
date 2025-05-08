@@ -18,10 +18,10 @@ const videos = [
 
 const FeaturedVideos = () => {
   return (
-    <section className="w-full bg-white py-12 px-4 md:px-8 lg:px-16">
+    <section className="w-full bg-white py-12 px-4 md:px-8 lg:px-16 lg:py-16">
       <div className="max-w-7xl mx-auto">
         {/* Title */}
-        <h2 className="text-4xl md:text-5xl font-semibold  mb-12 text-black text-center poppins">
+        <h2 className="text-3xl md:text-4xl font-semibold leading-10 mb-12 text-black text-center poppins">
           Supershield Featured
         </h2>
 
@@ -38,7 +38,7 @@ const FeaturedVideos = () => {
                   className="w-full h-full"
                 />
               </div>
-              <p className="mt-3 text-medium text-left text-black font-medium open-sans">
+              <p className="mt-3 text-lg text-left text-black font-normal leading-7 open-sans">
                 {video.title}
               </p>
             </div>

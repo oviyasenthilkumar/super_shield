@@ -4,21 +4,21 @@ import Link from "next/link";
 
 const DryboxSystem = () => {
   return (
-    <section className="w-full ">
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-full ">
+    <section className="w-full py-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 max-w-7xl mx-auto">
         {/* Left Column */}
-        <div className="bg-[#F4F4F4] flex items-center">
+        <div className=" flex items-center">
           <div className="w-full max-w-3xl px-6 sm:px-10 md:px-14 py-5 mx-auto space-y-6">
             <div className="flex flex-col items-start justify-center space-y-6">
               <Image
                 src="/Drybox_logo.png"
                 alt="Drybox System Logo"
-                width={500}
-                height={500}
-                className="mb-6 w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px]"
+                width={300}
+                height={300}
+                className="mb-6 max-w-4xl"
               />
 
-              <p className="text-black text-base md:text-base leading-relaxed open-sans font-normal text-justify">
+              <p className="text-black text-base md:text-lg leading-7 open-sans font-normal text-justify">
                 Comprehensive solution that combines multiple products to result
                 in the design and construction of long-lasting, durable, and
                 waterproof below–ground concrete structures.
@@ -28,15 +28,15 @@ const DryboxSystem = () => {
                 href="#"
                 className="inline-block bg-[#B41424] text-white px-6 py-4 text-md font-semibold hover:bg-white hover:text-[#B41424] hover:border hover:border-[#B41424] transition open-sans"
               >
-                Explore More →
+                ➔  Explore More
               </Link>
             </div>
           </div>
         </div>
 
         {/* Right Image */}
-        <div className="flex justify-center items-center py-8 px-4 sm:px-8 md:px-12 bg-[#EDEDED] w-full">
-          <div className="relative w-full max-w-[700px] h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px]">
+        <div className="flex justify-center items-center py-8 px-4 sm:px-8 md:px-12  w-full">
+          <div className="relative w-full max-w-[900px] h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] ">
             <Image
               src="/drybox.webp"
               alt="Drybox 3D Structure"

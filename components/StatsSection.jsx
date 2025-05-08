@@ -19,10 +19,10 @@ const StatsSection = () => {
               index % 2 === 0 ? "bg-[#ededed]" : "bg-[#f7f7f7]"
             }`}
           >
-            <div className="text-6xl font-bold text-black poppins">
+            <div className="text-4xl font-semibold text-black poppins leading-10">
               {stat.value}
             </div>
-            <div className="mt-2 text-[#5D5D5D] text-base md:text-xl font-normal open-sans">
+            <div className="mt-2 text-black text-base md:text-lg font-normal open-sans leading-7">
               {stat.label}
             </div>
           </div>

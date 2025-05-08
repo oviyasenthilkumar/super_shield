@@ -16,7 +16,7 @@ const HeroSection = () => {
       />
 
       {/* Overlay Content */}
-      <div className="relative z-10 max-w-6xl w-full px-6 md:px-12 text-white text-left flex flex-col items-start md:items-start justify-center h-full">
+      <div className="relative z-10 max-w-7xl w-full px-6 md:px-12 text-white text-left flex flex-col items-start md:items-start justify-center h-full">
         <div className=" p-6 md:p-10 max-w-4xl ">
           <h1 className="text-3xl md:text-7xl font-bold leading-tight poppins ">
             <span className=" font-bold">Adaptive</span>{" "}
@@ -26,10 +26,10 @@ const HeroSection = () => {
             <sup>®</sup>
           </h1>
 
-          <p className="mt-4 text-2xl md:text-4xl font-semibold open-sans">
+          <p className="mt-4 text-2xl md:text-4xl font-semibold leading-10 open-sans">
             Future of Self–Healing Concrete for Sustainability
           </p>
-          <p className="mt-2 text-lg md:text-xl text-white open-sans">
+          <p className="mt-2 text-lg md:text-xl text-white leading-9 open-sans">
             A suite of advanced{" "}
             <span className="font-semibold">
               self-healing crystalline technologies

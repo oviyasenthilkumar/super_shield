@@ -91,14 +91,14 @@ export default function Header() {
 
   return (
     <header className="bg-[#C50022] text-white sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 py-6 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 py-7 flex items-center justify-between">
         {/* Logo */}
         <Link href="/">
           <Image
-            src={scrolled ? "/logo21.png" : "/main-logo.png"}
+            src={scrolled ? "/logo2.png" : "/main-logo.png"}
             alt="Super Shield"
-            width={scrolled ? 100 : 200}
-            height={scrolled ? 100 : 200}
+            width={scrolled ? 100 : 320}
+            height={scrolled ? 100 : 320}
             priority
           />
         </Link>

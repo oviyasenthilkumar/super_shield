@@ -18,8 +18,8 @@ const exploreItems = [
 ];
 export default function ExploreSection() {
   return (
-    <div className="py-12 px-4 bg-white md:px-10 lg:px-20 ">
-      <h2 className="ttext-4xl md:text-5xl text-black  font-bold text-center mb-10 poppins">
+    <div className="py-12 px-4 bg-[#f7f7f7] md:px-10 lg:px-20 md:py-16">
+      <h2 className="text-3xl md:text-4xl text-black leading-10 font-semibold text-center mb-10 poppins">
         Explore more
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-left max-w-7xl mx-auto">

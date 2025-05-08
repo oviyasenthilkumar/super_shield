@@ -1,20 +1,20 @@
 export default function ShieldSection() {
   return (
-    <section className="bg-white text-black">
-      <div className="max-w-7xl mx-auto gap-x-10">
-        <div className="flex flex-col lg:flex-row max-w-7xl mx-auto gap-x-10">
+    <section className="bg-[#f7f7f7] text-black py-10">
+      <div className="max-w-7xl mx-auto ">
+        <div className="flex flex-col lg:flex-row  ">
           {/* Left content */}
-          <div className="lg:w-3/4 p-4 lg:pr-10 lg:p-0 py-8 ">
-            <h1 className="text-3xl md:text-4xl font-semibold font-poppins text-left">
-              <span className="text-[#c50022] font-extrabold">SHIELD</span>{" "}
+          <div className="lg:w-3/4 md:px-10 lg:pr-10 lg:p-0 py-8 p-4">
+            <h1 className="text-3xl md:text-4xl font-bold poppins leading-10 text-left tracking-wide">
+              <span className="text-[#c50022] font-extrabold">SHIELD </span>
               <span>Consortium</span>
             </h1>
 
-            <h2 className="text-xl md:text-2xl mt-4 md:mt-6 font-medium text-left font-poppins">
+            <h2 className="text-2xl md:text-3xl mt-4 md:mt-6 font-medium text-left leading-9 poppins">
               Advancing the Future of Self-Healing Concrete
             </h2>
 
-            <p className="mt-6 max-w-3xl text-sm md:text-base leading-7 md:leading-8 text-justify font-normal text-[#333] open-sans">
+            <p className="mt-6 max-w-3xl text-sm md:text-base leading-7 text-justify font-normal text-gray-700 open-sans">
               The <strong>SHIELD Consortium</strong>, a key initiative of
               Leaselife Holdings through its SHIELD of Concrete Innovation
               Centre, is committed to pioneering research and development in
@@ -41,7 +41,7 @@ export default function ShieldSection() {
               href="#"
               className="mt-6 inline-block text-[#c50022] font-bold uppercase tracking-wide open-sans"
             >
-              Know More &rarr;
+              Know More ➔
             </a>
 
             {/* Mission Logos */}
@@ -56,10 +56,9 @@ export default function ShieldSection() {
             />
           </div>
         </div>
-        <div className="flex flex-wrap gap-4 pb-10 pt-3 items-center justify-around">
+        <div className="grid grid-cols-2 md:grid-cols-4 mx-auto gap-4 px-3 py-7 items-center justify-around">
           <span className="text-xs font-semibold font-poppins uppercase">
-            Our Mission In
-            <br /> Alignment With
+            Our Mission In Alignment With
           </span>
           <img src="/partner1.png" alt="logo1" className="h-10" />
           <img src="/partner2.png" alt="logo2" className="h-10" />

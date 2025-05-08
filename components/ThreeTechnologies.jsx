@@ -44,22 +44,22 @@ const ThreeTechnologies = () => {
       {/* Title Section */}
       <div className="max-w-7xl mx-auto text-center lg:text-left lg:flex lg:justify-between lg:items-start mb-16">
         <div>
-          <h2 className="text-3xl md:text-5xl font-semibold leading-tight text-left poppins">
+          <h2 className="text-3xl md:text-4xl font-semibold leading-10 text-left poppins tracking-wide">
             Three Powerful <br />
-            <span className="text-[#b51724]">Technologies. One Purpose</span>
+            Technologies. One Purpose
           </h2>
-          <p className="mt-4 text-xl font-medium text-left poppins">
+          <h3 className="mt-4 text-2xl md:text-3xl leading-9 font-medium text-left poppins">
             To Make Concrete Last a Lifetime.
-          </p>
+          </h3>
         </div>
-        <div className="mt-8 lg:mt-0 lg:max-w-xl text-base text-black font-normal text-justify open-sans">
+        <p className="mt-8 lg:mt-0 lg:max-w-xl text-base leading-6 text-black font-normal text-justify open-sans">
           Supershield is the global innovator behind the patented SHIELD
           Crystalline Technologies – the most advanced self-healing concrete
           solution engineered for real-world resilience. Our technologies go
           beyond conventional crystalline systems, creating structures that
           self-adapt, self-protect, and self-sustain across the entire
           lifecycle.
-        </div>
+        </p>
       </div>
 
       {/* Cards Section */}
@@ -81,15 +81,15 @@ const ThreeTechnologies = () => {
             </div>
 
             <div className="px-6 py-6 flex flex-col flex-grow">
-              <h2 className="text-lg font-semibold text-gray-800 mb-3 poppins text-justify">
+              <h2 className="text-lg font-semibold text-gray-800 mb-3 leading-9 poppins text-justify">
                 {tech.titleTop}
               </h2>
 
-              <h3 className="text-[#b51724] font-bold text-lg mb-4 poppins text-justify">
+              <h3 className="text-[#b51724] font-semibold leading-10 text-lg md:text-xl mb-4 poppins text-justify">
                 {tech.title}
               </h3>
 
-              <p className="text-gray-700 text-sm leading-relaxed flex-grow text-justify open-sans font-normal">
+              <p className="text-gray-700 text-base leading-8 flex-grow text-justify open-sans font-normal">
                 {tech.description}
               </p>
 
@@ -97,7 +97,7 @@ const ThreeTechnologies = () => {
                 href={tech.link}
                 className="mt-6 text-[#b51724] text-base font-semibold inline-flex items-center gap-2 hover:underline open-sans"
               >
-                EXPLORE MORE →
+                EXPLORE MORE ➔
               </Link>
             </div>
           </div>

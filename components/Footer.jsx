@@ -27,22 +27,22 @@ export default function Footer() {
           <h4 className="font-bold mb-3 poppins">COMPANY</h4>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link href="/about" className="open-sans">
+              <Link href="/about" className="open-sans leading-5">
                 About Us
               </Link>
             </li>
             <li>
-              <Link href="/core-competencies" className="open-sans">
+              <Link href="/core-competencies" className="open-sans leading-5">
                 Core Competencies
               </Link>
             </li>
             <li>
-              <Link href="/sustainability" className="open-sans">
+              <Link href="/sustainability" className="open-sans leading-5">
                 Sustainability
               </Link>
             </li>
             <li>
-              <Link href="/technology" className="open-sans">
+              <Link href="/technology" className="open-sans leading-5">
                 Technology
               </Link>
             </li>
@@ -54,22 +54,22 @@ export default function Footer() {
           <h4 className="font-bold mb-3 poppins">SOLUTIONS</h4>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link href="/products" className="open-sans">
+              <Link href="/products" className="open-sans leading-5">
                 Products
               </Link>
             </li>
             <li>
-              <Link href="/systems" className="open-sans">
+              <Link href="/systems" className="open-sans leading-5">
                 Systems
               </Link>
             </li>
             <li>
-              <Link href="/services" className="open-sans">
+              <Link href="/services" className="open-sans leading-5">
                 Services
               </Link>
             </li>
             <li>
-              <Link href="/resources" className="open-sans">
+              <Link href="/resources" className="open-sans leading-5">
                 Resources
               </Link>
             </li>
@@ -86,8 +86,12 @@ export default function Footer() {
             Contact us →
           </Link>
           <div>
-            <p className="font-semibold text-sm open-sans">Need support?</p>
-            <p className="text-sm">contact@supershieldglobal.com</p>
+            <p className="font-semibold text-base open-sans leading-7">
+              Need support?
+            </p>
+            <p className="text-base open-sans leading-7">
+              contact@supershieldglobal.com
+            </p>
           </div>
           <div className="flex space-x-4 mt-2">
             <Link href="#">
