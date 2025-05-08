@@ -271,7 +271,7 @@ const AdaptiveTechnology = () => {
         </div>
 
         {/* Right Column */}
-        <div className="bg-[#F7F7F7] flex items-start">
+        <div className="bg-[#efefef] flex items-start">
           <div className="p-6 sm:p-10 md:p-14 max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-black poppins leading-10 tracking-wide">
               Key Challenges Addressed by SHIELD Adaptive Crystalline Technology

@@ -244,7 +244,7 @@ const ProductLines = () => {
   return (
     <section className="w-full bg-[#f7f7f7] py-12 px-4 md:px-8 lg:px-16 lg:py-16">
       <div className="max-w-7xl mx-auto ">
-        <h2 className="text-3xl md:text-4xl font-semibold text-black leading-10 tracking-wide text-center mb-8 poppins ">
+        <h2 className="text-3xl md:text-4xl font-semibold text-black leading-10 tracking-wide text-center mb-10 poppins ">
           Product Lines
         </h2>
 

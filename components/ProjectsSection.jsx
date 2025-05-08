@@ -156,7 +156,7 @@ const ProjectsSection = () => {
     <section className="w-full bg-white py-16 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Title */}
-        <h2 className="text-3xl md:text-4xl font-semibold text-black mb-12 tracking-wide leading-10 text-center poppins">
+        <h2 className="text-3xl md:text-4xl font-semibold text-black mb-10 tracking-wide leading-10 text-center poppins">
           PROJECTS
         </h2>
 
@@ -165,7 +165,7 @@ const ProjectsSection = () => {
           {projects.map((project, idx) => (
             <div
               key={idx}
-              className={` overflow-hidden  bg-white transition shadow-sm  flex flex-col
+              className={` overflow-hidden  bg-white transition shadow-md flex flex-col
                
                 md:h-auto
               `}
@@ -200,7 +200,7 @@ const ProjectsSection = () => {
 
         {/* Button */}
         <div className="flex justify-center mt-12">
-          <button className="bg-[#B41424] open-sans text-white px-6 py-4  hover:bg-white hover:text-[#B41424] hover:border hover:border-[#B41424] transition text-sm font-semibold uppercase open-sans inline-flex items-center gap-2">
+          <button className="bg-[#B41424] open-sans text-white px-6 py-4 border-[1px] border-white hover:bg-white hover:text-[#B41424] hover:border hover:border-[#B41424] transition text-sm font-semibold uppercase open-sans inline-flex items-center gap-2">
             VIEW ALL PROJECTS
           </button>
         </div>

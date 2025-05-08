@@ -147,7 +147,7 @@ export default function Header() {
           href="/quote"
           className="hidden bg-[#B41424] lg:flex items-center border border-white px-4 py-2 text-sm font-semibold hover:bg-white hover:text-[#B41424] transition"
         >
-          GET A QUOTE <ArrowUpRight size={14} className="ml-1" />
+          GET A QUOTE 
         </Link>
 
         {/* Mobile/Tablet Menu Toggle */}

@@ -4,13 +4,13 @@ export default function ShieldSection() {
       <div className="max-w-7xl mx-auto ">
         <div className="flex flex-col lg:flex-row  ">
           {/* Left content */}
-          <div className="lg:w-3/4 md:px-10 lg:pr-10 lg:p-0 py-8 p-4">
+          <div className="lg:w-3/4 md:px-10 lg:pr-10 lg:p-0 py-18 p-4">
             <h1 className="text-3xl md:text-4xl font-bold poppins leading-10 text-left tracking-wide">
               <span className="text-[#c50022] font-extrabold">SHIELD </span>
               <span>Consortium</span>
             </h1>
 
-            <h2 className="text-2xl md:text-3xl mt-4 md:mt-6 font-medium text-left leading-9 poppins">
+            <h2 className="text-2xl md:text-3xl mt-4 md:mt-3 font-medium text-left leading-9 poppins">
               Advancing the Future of Self-Healing Concrete
             </h2>
 
@@ -39,9 +39,15 @@ export default function ShieldSection() {
 
             <a
               href="#"
-              className="mt-6 inline-block text-[#c50022] font-bold uppercase tracking-wide open-sans"
+              className="mt-6 text-[#c50022] font-semibold text-base uppercase tracking-wide open-sans flex items-center "
             >
-              Know More ➔
+              <img
+                src="/angle-right.png"
+                alt="arrow"
+                width={12}
+                className=" inline mr-2"
+              />{" "}
+              Know More
             </a>
 
             {/* Mission Logos */}
@@ -60,10 +66,10 @@ export default function ShieldSection() {
           <h3 className="text-lg font-semibold font-poppins uppercase">
             Our Mission In Alignment With
           </h3>
-          <div className="flex flex-wrap w-full justify-around pt-5 gap-y-5 md:gap-y-0">
-            <img src="/partner1.png" alt="logo1" className="h-12" />
-            <img src="/partner2.png" alt="logo2" className="h-12" />
-            <img src="/partner3.png" alt="logo3" className="h-12" />
+          <div className="flex flex-wrap w-full justify-center pt-3 gap-y-5 md:gap-y-0">
+            <img src="/partner1.png" alt="logo1" className="h-12 pr-10" />
+            <img src="/partner2.png" alt="logo2" className="h-12 pr-10" />
+            <img src="/partner3.png" alt="logo3" className="h-12 pr-10" />
           </div>
         </div>
       </div>

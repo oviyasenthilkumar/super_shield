@@ -42,7 +42,7 @@ const ThreeTechnologies = () => {
   return (
     <section className="bg-white py-16 px-4 md:px-8 lg:px-16 text-black">
       {/* Title Section */}
-      <div className="max-w-7xl mx-auto text-center lg:text-left lg:flex lg:justify-between lg:items-start mb-16">
+      <div className="max-w-7xl mx-auto text-center lg:text-left lg:flex lg:justify-between lg:items-start mb-6">
         <div>
           <h2 className="text-3xl md:text-4xl font-semibold leading-10 text-left poppins tracking-wide">
             Three Powerful <br />
@@ -67,7 +67,7 @@ const ThreeTechnologies = () => {
         {technologyData.map((tech) => (
           <div
             key={tech.id}
-            className="bg-white shadow-sm flex flex-col overflow-hidden"
+            className="bg-white shadow-md flex flex-col overflow-hidden"
           >
             {/* Image + Top Title */}
             <div className="relative">
@@ -85,7 +85,7 @@ const ThreeTechnologies = () => {
                 {tech.titleTop}
               </h2>
 
-              <h3 className="text-[#b51724] font-semibold leading-8 text-lg md:text-xl mb-4 poppins text-justify">
+              <h3 className="text-[#b51724] font-semibold leading-8 text-lg md:text-xl mb-4 poppins text-left">
                 {tech.title}
               </h3>
 
@@ -95,9 +95,15 @@ const ThreeTechnologies = () => {
 
               <Link
                 href={tech.link}
-                className="mt-6 text-[#b51724] text-base font-semibold inline-flex items-center gap-2 hover:underline open-sans"
+                className="mt-6 text-[#b51724] text-base font-semibold inline-flex items-center uppercase gap-2 hover:underline open-sans"
               >
-                EXPLORE MORE ➔
+                <img
+                  src="/angle-right.png"
+                  alt="arrow"
+                  width={12}
+                  className=" inline"
+                />
+                EXPLORE MORE
               </Link>
             </div>
           </div>

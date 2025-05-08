@@ -21,7 +21,7 @@ const FeaturedVideos = () => {
     <section className="w-full bg-white py-12 px-4 md:px-8 lg:px-16 lg:py-16">
       <div className="max-w-7xl mx-auto">
         {/* Title */}
-        <h2 className="text-3xl md:text-4xl font-semibold leading-10 mb-12 text-black text-center poppins">
+        <h2 className="text-3xl md:text-4xl font-semibold leading-10 mb-10 text-black text-center poppins">
           Supershield Featured
         </h2>
 

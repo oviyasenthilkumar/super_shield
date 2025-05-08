@@ -50,14 +50,14 @@
 // components/LogoGrid.js
 export default function LogoGrid() {
   return (
-    <div className="w-full py-10 md:py-14 bg-white max-w-7xl mx-auto">
+    <div className="w-full py-10 md:py-14 bg-white max-w-7xl mx-auto ">
       <div className=" mb-8">
         <h2 className="text-3xl md:text-4xl px-7 lg:px-0 font-semibold poppins leading-10 text-black text-left tracking-wide">
           Collaborations and Certifications
         </h2>
       </div>
-      <div className="max-w-7xl mx-auto p-6">
-        <div className="flex flex-col md:flex-row justify-around items-center gap-5 md:gap-0 border-[1px] border-[#ececec]  p-4 leading-9">
+      <div className="max-w-7xl py-6 px-5 lg:px-0">
+        <div className="flex flex-col md:flex-row justify-start items-center gap-y-5 md:gap-0 border-[1px] border-[#ececec]  py-4 leading-9 px-5 md:px-0">
           {/* Left side logos */}
           <div className="flex flex-wrap justify-between md:justify-around items-center gap-3 w-full md:w-1/2">
             <img

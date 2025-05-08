@@ -78,16 +78,16 @@ export default function Footer() {
 
         {/* CONTACT */}
         <div className="space-y-4">
-          <h4 className="font-bold poppins">Get in touch</h4>
+          <h4 className="font-bold poppins uppercase">Get in touch</h4>
           <Link
             href="/contact"
-            className="inline-block bg-white text-black font-medium px-4 py-2 hover:bg-gray-100 hover:text-[#c50022] transition open-sans"
+            className="inline-block bg-white text-black font-medium px-4 py-2 hover:bg-gray-200 hover:text-[#c50022]  transition open-sans"
           >
-            Contact us →
+            Contact Us 
           </Link>
           <div>
             <p className="font-semibold text-base open-sans leading-7">
-              Need support?
+              Need Support?
             </p>
             <p className="text-base open-sans leading-7">
               contact@supershieldglobal.com

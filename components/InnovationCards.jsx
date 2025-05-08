@@ -20,12 +20,12 @@
 //               inventions that redefine industry standards.
 //             </p>
 
-            // <Link
-            //   href="#"
-            //   className="text-left  mt-6 inline-block bg-[#B41424] text-base text-white  px-5 py-4 font-normal hover:border hover:border-[#B41424] hover:bg-white hover:text-[#B41424] transition open-sans"
-            // >
-            //   TIMELINE OF PRODUCT INNOVATIONS →
-            // </Link>
+// <Link
+//   href="#"
+//   className="text-left  mt-6 inline-block bg-[#B41424] text-base text-white  px-5 py-4 font-normal hover:border hover:border-[#B41424] hover:bg-white hover:text-[#B41424] transition open-sans"
+// >
+//   TIMELINE OF PRODUCT INNOVATIONS →
+// </Link>
 //           </div>
 
 //           <div className="relative w-full h-auto mt-6">
@@ -44,24 +44,24 @@
 //           {/* Left Image */}
 
 //           {/* Text + Button + Right Image */}
-          // <dilv className="flex flex-col  items-start w-full px-5 text-left">
-          // <h2 className="text-2xl md:text-4xl font-semibold text-black leading-tight text-left poppins">
-          // RESOURCES
-             
-          //   </h2>
-          //   <p className="text-black mb-6 mt-6 text-base  text-left open-sans font-normal">
-          //     Access a comprehensive collection of technical documents,
-          //     brochures, and guides to explore our advanced crystalline
-          //     waterproofing solutions and technologies.
-          //   </p>
+// <dilv className="flex flex-col  items-start w-full px-5 text-left">
+// <h2 className="text-2xl md:text-4xl font-semibold text-black leading-tight text-left poppins">
+// RESOURCES
 
-          //   <Link
-          //     href="#"
-          //     className="bg-[#B41424] text-white px-6 py-4 text-base font-semibold hover:bg-white hover:text-[#B41424] hover:border hover:border-[#B41424] hover:opacity-90 transition open-sans"
-          //   >
-          //     VIEW RESOURCES →
-          //   </Link>
-          // </dilv>
+//   </h2>
+//   <p className="text-black mb-6 mt-6 text-base  text-left open-sans font-normal">
+//     Access a comprehensive collection of technical documents,
+//     brochures, and guides to explore our advanced crystalline
+//     waterproofing solutions and technologies.
+//   </p>
+
+//   <Link
+//     href="#"
+//     className="bg-[#B41424] text-white px-6 py-4 text-base font-semibold hover:bg-white hover:text-[#B41424] hover:border hover:border-[#B41424] hover:opacity-90 transition open-sans"
+//   >
+//     VIEW RESOURCES →
+//   </Link>
+// </dilv>
 //           <div className="w-full lg:w-2/2 flex justify-center ">
 //             {/* <Image
 //               src="/resours2.jpeg" // Replace with your left catalogue image
@@ -78,7 +78,7 @@
 //               className="object-contain"
 //             />
 //           </div>
-//         </div> 
+//         </div>
 // {/*         <span>Concrete Protection</span> */}
 //       </div>
 //     </section>
@@ -113,7 +113,7 @@ const InnovationCards = () => {
               href="#"
               className="mt-6 inline-block font-semibold text-center border-[1px] border-white  bg-[#B41424] text-white px-4 py-3 text-sm md:text-base md:px-5 md:py-4 hover:border hover:border-[#B41424] hover:bg-white hover:text-[#B41424] transition-all duration-300 ease-in-out"
             >
-              ➔ TIMELINE OF PRODUCT INNOVATIONS
+              TIMELINE OF PRODUCT INNOVATIONS
             </Link>
           </div>
 
@@ -147,7 +147,7 @@ const InnovationCards = () => {
               href="#"
               className="bg-[#B41424] text-white px-6 py-4 text-base border-[1px] border-white font-semibold hover:bg-white hover:text-[#B41424] hover:border hover:border-[#B41424] hover:opacity-90 transition open-sans"
             >
-              ➔ VIEW RESOURCES
+              VIEW RESOURCES
             </Link>
           </div>
           <div className="w-full flex justify-center">

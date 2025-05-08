@@ -38,8 +38,8 @@ const HeroSection = () => {
             longevity of concrete structures.
           </p>
 
-          <button className="mt-6 inline-flex items-center bg-[#B41424] hover:bg-white  hover:text-[#B41424] text-white px-5 py-4 transition cursor-pointer open-sans">
-            EXPLORE SHIELD<sup>®</sup>{" "} SOLUTIONS →
+          <button className="mt-6 inline-flex items-center border-[1px] border-[#B41424] hover:border hover:border-[#B41424] bg-[#B41424] hover:bg-white  hover:text-[#B41424] text-white px-5 py-4 transition cursor-pointer open-sans">
+            EXPLORE SHIELD<sup>® </sup> SOLUTIONS
           </button>
         </div>
       </div>

@@ -39,7 +39,13 @@ const InnovationIntro = () => {
             href="#"
             className="text-[#b51724] font-semibold uppercase text-base inline-flex items-center gap-2 hover:underline"
           >
-            ➔ Discover Our Innovations
+            <img
+              src="/angle-right.png"
+              alt="arrow"
+              width={12}
+              className=" inline"
+            />
+            Discover Our Innovations
           </a>
         </div>
       </div>
