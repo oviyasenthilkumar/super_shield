@@ -93,11 +93,11 @@ import Link from "next/link";
 const InnovationCards = () => {
   return (
     // <section className="w-full bg-white py-10 px-4 md:px-8 lg:px-16">
-    <section className="w-full py-10 px-4 md:px-8 lg:px-16 bg-[linear-gradient(to_right,_#F4F4F4_50%,_#F7F7F7_50%)]">
-      <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 max-w -7xl">
+    <section className="w-full py-10 px-4 md:px-8 lg:px-0 bg-[linear-gradient(to_right,_#F4F4F4_50%,_#F7F7F7_50%)]">
+      <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-7xl pt-5">
         {/* Card 1 - Timeline */}
-        <div className=" overflow-hidden  px-5">
-          <div className="p-6 text-left max-w-3xl">
+        <div className=" overflow-hidden px-5 lg:px-0 ">
+          <div className="p-6 lg:p-0 text-left max-w-3xl">
             <h2 className="text-3xl md:text-4xl font-semibold text-black leading-10 tracking-wide text-left poppins">
               Pioneering Innovation in <br />
               <span>Concrete Protection</span>
@@ -117,7 +117,7 @@ const InnovationCards = () => {
             </Link>
           </div>
 
-          <div className="relative w-full h-auto mt-6">
+          <div className="relative w-full h-auto mt-10 ">
             <Image
               src="/road.png" // Replace with your timeline image path
               alt="Timeline"
@@ -129,7 +129,7 @@ const InnovationCards = () => {
         </div>
 
         {/* Card 2 - Resources Catalogue */}
-        <div className=" h-full overflow-hidden max-w-3xl text-white flex flex-col  items-start text-left p-6 pt-10 gap-2">
+        <div className=" h-full overflow-hidden max-w-3xl text-white flex flex-col  items-start text-left  gap-2 ">
           {/* Left Image */}
 
           {/* Text + Button + Right Image */}
