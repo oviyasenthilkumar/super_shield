@@ -137,7 +137,7 @@ const InnovationCards = () => {
             <h2 className="text-3xl md:text-4xl font-semibold text-black leading-10 tracking-wide text-left poppins">
               Resources
             </h2>
-            <p className="text-black mb-6 mt-6 text-sm md:text-base leading-7 text-justify open-sans font-normal">
+            <p className="text-black mb-6 mt-6 text-sm md:text-base leading-7 text-left open-sans font-normal">
               Access a comprehensive collection of technical documents,
               brochures, and guides to explore our advanced crystalline
               waterproofing solutions and technologies.

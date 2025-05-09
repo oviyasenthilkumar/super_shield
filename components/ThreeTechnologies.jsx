@@ -42,7 +42,7 @@ const ThreeTechnologies = () => {
   return (
     <section className="bg-white py-16 px-4 md:px-8 lg:px-16 text-black">
       {/* Title Section */}
-      <div className="max-w-7xl mx-auto text-center lg:text-left lg:flex lg:justify-between lg:items-start mb-6">
+      <div className="max-w-7xl mx-auto text-center lg:text-left lg:flex lg:justify-between lg:items-start mb-8">
         <div>
           <h2 className="text-3xl md:text-4xl font-semibold leading-10 text-left poppins tracking-wide">
             Three Powerful <br />
@@ -52,7 +52,7 @@ const ThreeTechnologies = () => {
             To Make Concrete Last a Lifetime.
           </h3>
         </div>
-        <p className="mt-8 lg:mt-0 lg:max-w-xl text-base leading-6 text-black font-normal text-justify open-sans">
+        <p className="mt-8 lg:mt-0 lg:max-w-xl text-base leading-6 text-black font-normal text-left open-sans">
           Supershield is the global innovator behind the patented SHIELD
           Crystalline Technologies – the most advanced self-healing concrete
           solution engineered for real-world resilience. Our technologies go
@@ -81,7 +81,7 @@ const ThreeTechnologies = () => {
             </div>
 
             <div className="px-9 py-9 flex flex-col flex-grow">
-              <h2 className="text-lg font-semibold text-gray-800 mb-3 leading-7 poppins text-justify">
+              <h2 className="text-lg font-semibold text-gray-800 mb-3 leading-7 poppins text-left">
                 {tech.titleTop}
               </h2>
 
@@ -89,7 +89,7 @@ const ThreeTechnologies = () => {
                 {tech.title}
               </h3>
 
-              <p className="text-gray-700 text-base leading-7 flex-grow text-justify open-sans font-normal">
+              <p className="text-gray-700 text-base leading-7 flex-grow text-left open-sans font-normal">
                 {tech.description}
               </p>
 

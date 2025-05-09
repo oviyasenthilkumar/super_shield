@@ -253,7 +253,7 @@ const ProductLines = () => {
           {itemsToRender.map((item, index) => (
             <div
               key={index}
-              className="overflow-hidden shadow-sm bg-white transition hover:shadow-md flex flex-col h-full min-h-[420px] sm:min-h-[440px] lg:min-h-[460px]"
+              className="overflow-hidden shadow-md bg-white transition hover:shadow-md flex flex-col h-full min-h-[420px] sm:min-h-[440px] lg:min-h-[460px]"
             >
               <Image
                 src={item.image}

@@ -29,7 +29,7 @@ const HeroSection = () => {
           <p className="mt-4 text-2xl md:text-4xl font-semibold leading-10 open-sans">
             Future of Self–Healing Concrete for Sustainability
           </p>
-          <p className="mt-2 text-lg md:text-xl text-white leading-9 open-sans">
+          <p className="mt-2 text-lg md:text-xl text-white md:leading-9 open-sans">
             A suite of advanced{" "}
             <span className="font-semibold">
               self-healing crystalline technologies

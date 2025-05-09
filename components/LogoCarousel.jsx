@@ -57,7 +57,7 @@ export default function LogoGrid() {
         </h2>
       </div>
       <div className="max-w-7xl py-6 px-5 lg:px-0">
-        <div className="flex flex-col md:flex-row justify-start items-center gap-y-5 md:gap-0 border-[1px] border-[#ececec]  py-4 leading-9 px-5 md:px-0">
+        <div className="flex flex-col md:flex-row justify-start items-center gap-y-8 md:gap-0 border-[1px] border-[#ececec]  py-4 leading-9 px-5 md:px-0">
           {/* Left side logos */}
           <div className="flex flex-wrap justify-between md:justify-around items-center gap-3 w-full md:w-1/2">
             <img

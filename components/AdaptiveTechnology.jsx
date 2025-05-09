@@ -233,11 +233,75 @@ const AdaptiveTechnology = () => {
   ];
 
   return (
-    <section className="w-full py-10">
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-full  ">
+    // <section className="w-full py-10">
+    //   <div className="grid grid-cols-1 lg:grid-cols-2 w-full  ">
+    //     {/* Left Column */}
+    //     <div className="bg-[#F4F4F4] flex items-start">
+    //       <div className="p-6 sm:p-10 md:p-14 space-y-6 max-w-4xl mx-auto">
+    //         <h2 className="text-3xl md:text-4xl font-semibold leading-10 text-black poppins tracking-wide">
+    //           Crystalline Waterproofing <br />
+    //           Was Just the Beginning.
+    //         </h2>
+    //         <h3 className="text-xl md:text-3xl text-black leading-9 font-medium poppins">
+    //           Meet SHIELD – World’s Only Adaptive Crystalline Technology
+    //           <sup>®</sup>
+    //         </h3>
+    //         <p className="text-justify font-normal leading-6 text-black open-sans text-base">
+    //           Traditional crystalline technologies are designed to waterproof
+    //           concrete by filling pores and sealing cracks after they occur — a
+    //           reactive approach that addresses defects and offers only basic
+    //           durability.
+    //         </p>
+    //         <p className="text-justify font-normal leading-6 text-black open-sans text-base">
+    //           SHIELD Adaptive Crystalline Technologies go far beyond, it begins
+    //           working from the casting stage, enhancing fresh concrete
+    //           properties, supporting optimal hydration, and delivering superior
+    //           performance even in extreme climates. It actively manages thermal,
+    //           moisture, water, and vapor movement—adapting to phase changes
+    //           throughout the concrete’s lifecycle. Designed for both intense
+    //           heat and freezing temperatures, it reduces thermal stress and
+    //           shrinkage cracks, ensuring long-term resilience, durability, and
+    //           crack-free performance.
+    //         </p>
+    //         <p className="text-justify font-normal leading-6 text-black open-sans text-base">
+    //           With SHIELD Adaptive Crystalline, concrete isn’t just protected —
+    //           it’s climate-change ready and durable by design, not by repair.
+    //         </p>
+    //       </div>
+    //     </div>
+
+    //     {/* Right Column */}
+    //     <div className="bg-[#efefef] flex items-start">
+    //       <div className="p-6 sm:p-10 md:p-14 max-w-4xl mx-auto">
+    //         <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-black poppins leading-10 tracking-wide">
+    //           Key Challenges Addressed by SHIELD Adaptive Crystalline Technology
+    //           <sup>®</sup>
+    //         </h2>
+    //         <div>
+    //           {challenges.map((item, idx) => (
+    //             <div key={idx} className="flex items-start gap-5 p-4 ">
+    //               <Image
+    //                 src={`/${item.icon}`}
+    //                 alt={`icon-${idx + 1}`}
+    //                 width={32}
+    //                 height={32}
+    //                 className="w-8 h-8 object-contain mt-1"
+    //               />
+    //               <p className="text-base leading-6 text-black font-normal open-sans">
+    //                 {item.text}
+    //               </p>
+    //             </div>
+    //           ))}
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </section>
+    <section className="w-full py-10 bg-[linear-gradient(to_right,_#F4F4F4_50%,_#F7F7F7_50%)]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-full max-w-7xl mx-auto">
         {/* Left Column */}
-        <div className="bg-[#F4F4F4] flex items-start">
-          <div className="p-6 sm:p-10 md:p-14 space-y-6 max-w-4xl mx-auto">
+        <div className="flex items-start">
+          <div className="py-5 pr-4 space-y-6 p-7 lg:p-0 mx-auto">
             <h2 className="text-3xl md:text-4xl font-semibold leading-10 text-black poppins tracking-wide">
               Crystalline Waterproofing <br />
               Was Just the Beginning.
@@ -246,13 +310,13 @@ const AdaptiveTechnology = () => {
               Meet SHIELD – World’s Only Adaptive Crystalline Technology
               <sup>®</sup>
             </h3>
-            <p className="text-justify font-normal leading-6 text-black open-sans text-base">
+            <p className="text-justify font-normal leading-6 text-black open-sans text-base md:pr-3">
               Traditional crystalline technologies are designed to waterproof
               concrete by filling pores and sealing cracks after they occur — a
               reactive approach that addresses defects and offers only basic
               durability.
             </p>
-            <p className="text-justify font-normal leading-6 text-black open-sans text-base">
+            <p className="text-justify font-normal leading-6 text-black open-sans text-base md:pr-3">
               SHIELD Adaptive Crystalline Technologies go far beyond, it begins
               working from the casting stage, enhancing fresh concrete
               properties, supporting optimal hydration, and delivering superior
@@ -263,7 +327,7 @@ const AdaptiveTechnology = () => {
               shrinkage cracks, ensuring long-term resilience, durability, and
               crack-free performance.
             </p>
-            <p className="text-justify font-normal leading-6 text-black open-sans text-base">
+            <p className="text-justify font-normal leading-6 text-black open-sans text-base md:pr-3">
               With SHIELD Adaptive Crystalline, concrete isn’t just protected —
               it’s climate-change ready and durable by design, not by repair.
             </p>
@@ -271,15 +335,15 @@ const AdaptiveTechnology = () => {
         </div>
 
         {/* Right Column */}
-        <div className="bg-[#efefef] flex items-start">
-          <div className="p-6 sm:p-10 md:p-14 max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-black poppins leading-10 tracking-wide">
+        <div className="flex items-start">
+          <div className="py-5 pl-4 p-8 lg:p-0 mx-auto">
+            <h2 className="text-3xl md:text-4xl p-3 lg:p-0 font-semibold mb-6 text-black poppins leading-10 tracking-wide">
               Key Challenges Addressed by SHIELD Adaptive Crystalline Technology
               <sup>®</sup>
             </h2>
             <div>
               {challenges.map((item, idx) => (
-                <div key={idx} className="flex items-start gap-5 p-4 ">
+                <div key={idx} className="flex items-start gap-5 p-4">
                   <Image
                     src={`/${item.icon}`}
                     alt={`icon-${idx + 1}`}
