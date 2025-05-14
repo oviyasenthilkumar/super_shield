@@ -1,6 +1,6 @@
 export default function ShieldSection() {
   return (
-    <section className="bg-[#f7f7f7] text-black py-10">
+    <section className="bg-[#f7f7f7] text-black py-16">
       <div className="max-w-7xl mx-auto ">
         <div className="flex flex-col lg:flex-row  ">
           {/* Left content */}

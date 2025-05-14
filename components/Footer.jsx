@@ -9,16 +9,12 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-[#b51724] text-white py-10 px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+    <footer className="bg-[#b51724] text-white py-10 md:py-16 px-6 w-full">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-10">
         {/* Logo and Tagline */}
-        <div className="space-y-3">
-          <div className="flex items-center space-x-3">
-            {/* Replace with your logo */}
-            <img src="/logo.png" alt="Logo" />
-            {/* <span className="text-lg font-medium">
-              Lease Life to <br /> Man-Made Structures
-            </span> */}
+        <div>
+          <div className="flex items-center space-x-3 ">
+            <img src="/footer-logo.png" alt="Logo" className="w-[80%] md:w-full" />
           </div>
         </div>
 
@@ -26,22 +22,22 @@ export default function Footer() {
         <div>
           <h4 className="font-bold mb-3 poppins">COMPANY</h4>
           <ul className="space-y-2 text-sm">
-            <li>
+            <li className="py-1">
               <Link href="/about" className="open-sans leading-5">
                 About Us
               </Link>
             </li>
-            <li>
+            <li className="py-1">
               <Link href="/core-competencies" className="open-sans leading-5">
                 Core Competencies
               </Link>
             </li>
-            <li>
+            <li className="py-1">
               <Link href="/sustainability" className="open-sans leading-5">
                 Sustainability
               </Link>
             </li>
-            <li>
+            <li className="py-1">
               <Link href="/technology" className="open-sans leading-5">
                 Technology
               </Link>
@@ -53,22 +49,22 @@ export default function Footer() {
         <div>
           <h4 className="font-bold mb-3 poppins">SOLUTIONS</h4>
           <ul className="space-y-2 text-sm">
-            <li>
+            <li className="py-1">
               <Link href="/products" className="open-sans leading-5">
                 Products
               </Link>
             </li>
-            <li>
+            <li className="py-1">
               <Link href="/systems" className="open-sans leading-5">
                 Systems
               </Link>
             </li>
-            <li>
+            <li className="py-1">
               <Link href="/services" className="open-sans leading-5">
                 Services
               </Link>
             </li>
-            <li>
+            <li className="py-1">
               <Link href="/resources" className="open-sans leading-5">
                 Resources
               </Link>
@@ -78,12 +74,12 @@ export default function Footer() {
 
         {/* CONTACT */}
         <div className="space-y-4">
-          <h4 className="font-bold poppins uppercase">Get in touch</h4>
+          <h4 className="font-bold poppins uppercase py-1">Get in touch</h4>
           <Link
             href="/contact"
             className="inline-block bg-white text-black font-medium px-4 py-2 hover:bg-gray-200 hover:text-[#c50022]  transition open-sans"
           >
-            Contact Us 
+            Contact Us
           </Link>
           <div>
             <p className="font-semibold text-base open-sans leading-7">

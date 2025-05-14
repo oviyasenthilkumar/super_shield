@@ -3,7 +3,7 @@ import React from "react";
 
 const InnovationIntro = () => {
   return (
-    <section className="bg-white px-6 md:px-12 py-16 text-black">
+    <section className="bg-white px-6 md:px-14 py-16 md:py-8 text-black">
       <div className="max-w-7xl mx-auto text-center md:text-left">
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-semibold leading-10 tracking-wide text-left poppins">

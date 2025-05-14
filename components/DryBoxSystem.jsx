@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const DryboxSystem = () => {
   return (
-    <section className="w-full py-16 lg:py-0">
+    <section className="w-full py-12 lg:py-0">
       <div className="grid grid-cols-1 lg:grid-cols-2 max-w-7xl mx-auto">
         {/* Left Column */}
         <div className=" flex items-center">
-          <div className="w-full max-w-3xl px-6 sm:px-10 md:px-0 py-3 mx-auto space-y-3">
+          <div className="w-full max-w-3xl px-6 sm:px-10 md:px-8 lg:px-0 py-3 mx-auto space-y-3">
             <div className="flex flex-col items-start justify-center space-y-6">
               <Image
                 src="/Drybox_logo.png"
