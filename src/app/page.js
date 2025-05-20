@@ -1,4 +1,3 @@
-// import Image from "next/image";
 import AdaptiveTechnology from "../../components/AdaptiveTechnology";
 import DryboxSystem from "../../components/DryBoxSystem";
 import ExploreSection from "../../components/ExploreMore";
@@ -18,7 +17,7 @@ export default function Home() {
     <>
       <Header />
       <HeroSection />
-      <FirstFold/>
+      <FirstFold />
       <AdaptiveTechnology />
       <ThreeTechnologies />
       <ShieldSection />

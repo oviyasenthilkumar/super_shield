@@ -5,7 +5,25 @@ import Image from "next/image";
 import Link from "next/link";
 
 const navItems = [
-  { name: "Company", href: "/about" },
+  {
+    name: "Company",
+    dropdown: [
+      { name: "About", href: "/about" },
+      { name: "Core Competencies", href: "/corecompetencies" },
+      {
+        name: "Innovations",
+        href: "/innovation",
+      },
+      {
+        name: "Sustainability",
+        href: "/technology/multiseal",
+      },
+      {
+        name: "SHIELD Consortium",
+        href: "/technology/multiseal",
+      },
+    ],
+  },
   {
     name: "Technology",
     dropdown: [
@@ -108,22 +126,22 @@ export default function Header() {
           {navItems.map((item, idx) =>
             item.dropdown ? (
               <div key={idx} className="relative group">
-                <button className="flex items-center gap-1 font-semibold group-hover:text-white poppins">
+                <div className="flex items-center gap-1 font-semibold poppins cursor-pointer">
                   {item.name} <ChevronDown size={16} />
-                </button>
+                </div>
                 <div
-                  className={`absolute top-full poppins left-0 mt-2 bg-white text-black shadow-lg z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200 ${
-                    item.dropdown.length > 10 ? "grid grid-cols-2 gap-2" : ""
+                  className={`pl-2 py-2 rounded-sm  absolute top-full poppins left-0 mt-11 bg-[#ededed]/90 text-black shadow-md z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-800 ${
+                    item.dropdown.length > 8 ? "grid grid-cols-2 gap-2" : ""
                   }`}
                   style={{
-                    width: item.dropdown.length > 10 ? "550%" : "16rem",
-                  }} // Increase width if there are more than 10 items
+                    width: item.dropdown.length > 8 ? "550%" : "14rem",
+                  }}
                 >
                   {item.dropdown.map((subItem, subIdx) => (
                     <Link
                       key={subIdx}
                       href={subItem.href}
-                      className="block px-4 py-2 hover:bg-gray-100 text-sm poppins"
+                      className="block px-4 py-4 rounded-sm hover:bg-[#edededcf]/90 text-sm poppins"
                     >
                       {subItem.name}
                     </Link>
@@ -147,7 +165,7 @@ export default function Header() {
           href="/quote"
           className="hidden bg-[#B41424] lg:flex items-center border border-white px-4 py-2 text-sm font-semibold hover:bg-white hover:text-[#B41424] transition"
         >
-          GET A QUOTE 
+          GET A QUOTE
         </Link>
 
         {/* Mobile/Tablet Menu Toggle */}
