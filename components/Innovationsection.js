@@ -142,7 +142,7 @@ export default function InnovationSection() {
           <h2 className="text-3xl md:text-4xl font-semibold leading-10 text-left poppins tracking-wide">
             Pioneering Innovation for Long-Lasting, Sustainable Structures.
           </h2>
-          <p className="mt-8 lg:mt-0 lg:max-w-xl text-base leading-6 text-black font-normal text-left open-sans">
+          <p className="mt-8 lg:mt-0 lg:max-w-xl text-base leading-6 text-black font-normal text-left openSans">
             At Supershield, our mission is to extend the life and performance of
             concrete infrastructures by developing advanced, sustainable, and
             high-performance solutions for the construction industry. With a
@@ -156,15 +156,15 @@ export default function InnovationSection() {
           {featureItems.map((item, index) => (
             <div
               key={index}
-              className="md:flex items-start bg-gray-100 p-6  shadow-sm gap-4 m-5"
+              className="md:flex items-center bg-gray-100 p-6 py-8 pl-8 shadow-sm gap-14 m-5"
             >
               <div className="flex-shrink-0 ">
                 <Image
                   src={item.icon}
                   alt="icon"
-                  width={50}
-                  height={50}
-                  className="w-20 pb-5 md:pb-0 md:w-full object-cover "
+                  width={65}
+                  height={65}
+                  className="w-20 pb-5 md:pb-0 md:w-full object-cover items-center"
                 />
               </div>
               <div>
@@ -173,7 +173,7 @@ export default function InnovationSection() {
                     {item.title}
                   </h3>
                 )}
-                <p className="text-gray-700 text-base leading-7 flex-grow text-left open-sans font-normal">
+                <p className="text-gray-700 text-base leading-7 flex-grow text-left open-sans font-normal max-w-5xl">
                   {item.description}
                 </p>
               </div>

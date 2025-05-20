@@ -58,16 +58,16 @@ export default function StandardsSection() {
         {standardsList.map((item, index) => (
           <div
             key={index}
-            className={`pb-6 ${
+            className={`mb-5  pb-6 ${
               index !== standardsList.length - 1
-                ? "border-b border-b-[#d3d3d3]"
+                ? "border-b border-b-[#d3d3d3] max-w-6xl "
                 : ""
             }`}
           >
             <h3 className="text-black font-semibold leading-8 text-lg md:text-xl mb-4 poppins text-left">
               {item.title}
             </h3>
-            <p className="text-gray-700 text-base leading-7 flex-grow text-left open-sans font-normal">
+            <p className="text-gray-700 text-base leading-7 flex-grow text-left open-sans font-normal max-w-6xl">
               {item.description}
             </p>
           </div>
